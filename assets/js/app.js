@@ -17,7 +17,7 @@ function currentTime() {
    let time = hh + ":" + mm + ":" + ss + " " + session;
 
   document.getElementById("clock").innerText = time; 
-  var t = setTimeout(function(){ currentTime() }, 1000); 
+  const t = setTimeout(function(){ currentTime() }, 1000); 
 
 }
 
